@@ -10,4 +10,6 @@ int main()
 //    (num%2==0)?cout<<"ever":cout<<"odd";
   (num>=-1 && num<=5)?cout<<"valid":cout<<"invalid input";
 
+  return 0;
+
 }

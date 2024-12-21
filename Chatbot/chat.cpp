@@ -76,6 +76,7 @@
 //     {
 //         cout << "\nBank Chatbot : I am sorry, I didn't understand";
 //     }
+// return 0;
 // }
 
 
@@ -123,4 +124,6 @@ int main()
             cout << "wrong input!";
         }
     }
+
+    return 0;
 }

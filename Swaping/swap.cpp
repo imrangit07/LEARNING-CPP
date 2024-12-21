@@ -34,4 +34,6 @@ int main()
    {
       cout << "envalid number";
    }
+
+   return 0;
 }

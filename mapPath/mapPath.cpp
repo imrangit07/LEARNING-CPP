@@ -73,4 +73,5 @@ int main()
     {
         cout << "Invalide Input";
     }
+    return 0;
 }

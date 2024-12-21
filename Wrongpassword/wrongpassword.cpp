@@ -28,5 +28,5 @@ int main()
       cout<<"Open";
    }
    }
-   
+   return 0;
 }

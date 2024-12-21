@@ -30,6 +30,8 @@ int main()
    {
       cout << "envalid input";
    }
+
+   return 0;
 }
 
 

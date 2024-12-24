@@ -20,13 +20,9 @@ int main()
 
     cout << "\n------ Mark Sheet ------\n";
 
-    if (hindi < 20 || english < 20 || chemistry < 20 || math < 20 || physics < 20)
+    if (hindi <=40 || english <=40 || chemistry <=40 || math <=40 || physics <=40)
     {
         cout << "--------fall--------";
-    }
-    else if ((hindi >= 21 && hindi <= 40) || (english >= 21 && english <= 40) || (chemistry >= 21 && chemistry <= 40) || (math >= 21 && math <= 40) || (physics >= 21 && physics <= 40))
-    {
-        cout << "--------Supply--------";
     }
     else if (marks>=41 && marks<=50)
     {

@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string userInput;
+    int userSalary, interest, price = 25000;
+
+    cout << "Enter Mobile: ";
+    cin >> userInput;
+
+    if (userInput == "Mobile")
+    {
+        cout << "Enter mobile name (Iphone, Samsung, Redmi): ";
+        cin >> userInput;
+
+        if (userInput == "Iphone" || userInput == "Samsung" || userInput == "Redmi")
+        {
+            cout << "Enter your monthly salary: ";
+            cin >> userSalary;
+
+            if (userSalary <= 20000)
+            {
+                interest = (price * 5 * 5) / 100;
+                price += interest;
+                price /= 60;
+                cout << "Monthly payment: " << price << endl;
+            }
+            else if (userSalary > 20000 && userSalary <= 40000)
+            {
+                interest = (price * 10 * 5) / 100;
+                price += interest;
+                price /= 60;
+                cout << "Monthly payment: " << price << endl;
+            }
+            else if (userSalary > 40000)
+            {
+                interest = (price * 20 * 5) / 100;
+                price += interest;
+                price /= 60;
+                cout << "Monthly payment: " << price << endl;
+            }
+            else
+            {
+                cout << "Invalid salary input!" << endl;
+            }
+        }
+        else
+        {
+            cout << "Invalid input. Please enter only Iphone, Samsung, or Redmi." << endl;
+        }
+    }
+    else
+    {
+        cout << "Invalid input. Please enter 'Mobile'." << endl;
+    }
+
+    return 0;
+}

@@ -1,5 +1,1 @@
-do{
-    //     cout<<2*num<<endl;
-    //     num++;
-    // }while(num<=10);
-    // return 0;
+i%largerNumber==0

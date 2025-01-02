@@ -23,21 +23,21 @@ int main()
             {
                 interest = (price * 5 * 5) / 100;
                 price += interest;
-                price /= 60;
+                price /= 5*12;
                 cout << "Monthly payment: " << price << endl;
             }
             else if (userSalary > 20000 && userSalary <= 40000)
             {
-                interest = (price * 10 * 5) / 100;
+                interest = (price * 10 * 3) / 100;
                 price += interest;
-                price /= 60;
+                price /= 3*12;
                 cout << "Monthly payment: " << price << endl;
             }
             else if (userSalary > 40000)
             {
-                interest = (price * 20 * 5) / 100;
+                interest = (price * 20 * 2) / 100;
                 price += interest;
-                price /= 60;
+                price /= 2*12;
                 cout << "Monthly payment: " << price << endl;
             }
             else
